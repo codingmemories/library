@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link href="./style.css" rel="stylesheet">
+  <link href="./assets/ico/favicon.ico" rel="icon">
+  <script src="./index.js" defer></script>
+  <script src="https://kit.fontawesome.com/83a77536b2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header-title-box">
+        <h1 class="header-title">Brooklyn Public Library</h1>
+      </div>
+      <div class="header-navtop">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#favorites">Favorites</a></li>
+            <li><a href="#coffeeshop">Coffee shop</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#librarycard">Library Card</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-avatar">
+        <img src="./assets/svg/icon_profile.svg" alt="avatar">
+      </div>
+    </header>
+
+    <main class="main">
+
+     <section class="section-welcome">
+      <div class="section-welcome-box">
+        <h2 class="section-welcome-title">Welcome <br>to the Brooklyn <br>Library</h2>
+      </div>
+     </section>
+     <section class="section-about" id="about">
+      <div class="section-about-title">
+        <h2 class="section-about-title-text">About</h2>
+      </div>
+      <div class="section-about-description">
+        <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+      </div>
+      <div class="section-about-images">
+        <div class="section-about-images-item1"></div>
+        <div class="section-about-images-item2"></div>
+        <div class="section-about-images-item3"></div>
+      </div>
+      <div class="section-about-pagination">
+        <a href="#" class="active"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+    </section>
+
+     <section class="section-favorites" id="favorites">
+      <div class="section-favorites-title">
+        <h2 class="section-favorites-title-text">Favorites</h2>
+      </div>
+      <div class="section-favorites-description">
+        <p class="section-favorites-description-text">Pick favorites of season</p>
+      </div>
+      <div class="section-favorites-seasons">
+        <form action="#">
+          <input type="radio" id="winter" name="season" value="Winter">
+          <label for="winter">Winter</label>
+          <input type="radio" id="spring" name="season" value="Spring">
+          <label for="spring">Spring</label>
+          <input type="radio" id="summer" name="season" value="Summer">
+          <label for="summer">Summer</label>
+          <input type="radio" id="autumn" name="season" value="Autumn">
+          <label for="autumn">Autumn</label>
+        </form>
+      </div>
+      <div class="section-favorites-seasons-books">
+        <div class="section-favorites-seasons-books-container">
+          <div class="section-favorites-seasons-books-container-content">
+            <h3 class="section-favorites-seasons-text">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-books-title">The Book Eaters</span>
+              <br><span class="section-favorites-seasons-books-author">By Sunyi Dean</span></h4>
+            <p class="section-favorites-seasons-books-description">An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
+          </div>
+          <button class="section-favorites-seasons-books-button" type="button">Buy</button>
+          <div class="section-favorites-seasons-books-image1"></div>
+        </div>
+
+        <!-- <div class="section-favorites-seasons-books">
+          <div class="section-favorites-seasons-books-container">
+            <h3 class="section-favorites-seasons-item-2-title">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-item-2-book-title-style">Cackle</span>
+              <span class="section-favorites-seasons-item-2-book-title-style-author">By Rachel Harrison</span></h4>
+            <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
+          </div>
+          <button class="section-favorites-seasons-item-2-book-button-buy" type="button">Buy</button>
+          <div class="section-favorites-seasons-item-2-book-image"></div>
+        </div> -->
+
+        <!-- <div class="section-favorites-seasons-books>
+          <div class="section-favorites-seasons-books-container">
+            <h3 class="section-favorites-seasons-item-3-title">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-item-3-book-title-style">Dante: Poet of the Secular World</span>
+              <span class="section-favorites-seasons-item-3-book-title-style-author">By Erich Auerbach</span></h4>
+            <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
+          </div>
+          <button class="section-favorites-seasons-item-3-book-button-buy" type="button">Buy</button>
+          <div class="section-favorites-seasons-item-3-book-image"></div>
+        </div> -->
+
+        <!-- <div class="section-favorites-seasons-books">
+          <div class="section-favorites-seasons-books-container">
+            <h3 class="section-favorites-seasons-books-title">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-item-4-book-title-style">The Last Queen</span>
+              <span class="section-favorites-seasons-item-4-book-title-style-author">By Clive Irving</span></h4>
+            <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+          </div>
+          <button class="section-favorites-seasons-item-4-book-button-buy" type="button" disabled>Own</button>
+          <div class="section-favorites-seasons-item-4-book-image"></div>
+        </div> -->
+      </div>
+     </section>
+
+     <section class="section-coffeeshop" id="coffeeshop">
+      <div class="section-coffeeshop-title">
+        <h2 class="section-coffeeshope-title-text">Coffee Shop</h2>
+      </div>
+      <div class="section-coffeeshop-description">
+        <p class="section-coffeeshop-description-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
+          you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
+      </div>
+      <div class="section-coffeeshop-menu">
+        <div class="section-coffeeshop-menu-drinks">
+          <p class="section-coffeeshop-menu-drinks-title">Coffee & Tea</p>
+          <article class="section-coffeeshop-menu-drinks-list-items">
+            <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Cold Brew Coffee</h4>
+            <p class="section-coffeeshop-menu-drinks-list-items-price">$3</p>
+          </article>
+          <article class="section-coffeeshop-menu-drinks-list-items">
+            <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">French Press Pot</h4>
+            <p class="section-coffeeshop-menu-drinks-list-items-price">$5</p>
+          </article>
+          <article class="section-coffeeshop-menu-drinks-list-items">
+            <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Espresso</h4>
+            <p class="section-coffeeshop-menu-drinks-list-items-price">$2</p>
+          </article>
+          <article class="section-coffeeshop-menu-drinks-list-items">
+            <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Cappuccino</h4>
+            <p class="section-coffeeshop-menu-drinks-list-items-price">$4</p>
+          </article>
+          <article class="section-coffeeshop-menu-drinks-list-items">
+            <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Hot Tea</h4>
+            <p class="section-coffeeshop-menu-drinks-list-items-price">$2</p>
+          </article>
+          <article class="section-coffeeshop-menu-drinks-list-items">
+            <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Cold Tea</h4>
+            <p class="section-coffeeshop-menu-drinks-list-items-price">$2</p>
+          </article>
+        </div>
+        <div class="section-coffeeshop-menu-deserts">
+          <p class="section-coffeeshop-menu-desserts-title">Desserts & Cakes</p>
+          <article class="section-coffeeshop-menu-desserts-list-items">
+            <h4 class="section-coffeeshop-menu-desserts-list-items-flavor">Forest Gateau</h4>
+            <p class="section-coffeeshop-menu-desserts-list-items-price">$16</p>
+          </article>
+          <article class="section-coffeeshop-menu-desserts-list-items">
+            <h4 class="section-coffeeshop-menu-desserts-list-items-flavor">Blue Moon</h4>
+            <p class="section-coffeeshop-menu-desserts-list-items-price">$16</p>
+          </article>
+          <article class="section-coffeeshop-menu-desserts-list-items">
+            <h4 class="section-coffeeshop-menu-desserts-list-items-flavor">Truffle Cake</h4>
+            <p class="section-coffeeshop-menu-desserts-list-items-price">$15</p>
+          </article>
+          <article class="section-coffeeshop-menu-desserts-list-items">
+            <h4 class="section-coffeeshop-menu-desserts-list-items-flavor">Chocolate Cake</h4>
+            <p class="section-coffeeshop-menu-desserts-list-items-price">$18</p>
+          </article>
+          <article class="section-coffeeshop-menu-desserts-list-items">
+            <h4 class="section-coffeeshop-menu-desserts-list-items-flavor">Poet's Dream Cake</h4>
+            <p class="section-coffeeshop-menu-desserts-list-items-price">$16</p>
+          </article>
+          <article class="section-coffeeshop-menu-desserts-list-items">
+            <h4 class="section-coffeeshop-menu-desserts-list-items-flavor">Pineapple Cake</h4>
+            <p class="section-coffeeshop-menu-desserts-list-items-price">$14</p>
+          </article>
+      </div>
+      </div>
+     </section>
+
+     <section class="section-contacts" id="contacts">
+      <div class="section-contacts-block">
+        <h2 class="section-contacts-block-title">Our Contacts</h2>
+      </div>
+        <div class="section-contacts-block-list">
+          <ul>
+            <li>For all Library inquiries:</li>
+            <li>Please call (617) 730-2370</li>
+            <li>For TTY service, please call (617) 730-2370</li>
+            <li>Putterham Library: (617) 730-2385</li>
+            <li>Senior Staff</li>
+            <li>Library Director: Amanda Hirst</li>
+          </ul>
+        </div>
+        <div class="section-contacts-maps"></div>
+     </section>
+
+     <section id="librarycard">
+      <h2>LibraryCard</h2>
+     </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer-address-block1">
+        <p class="footer-address-block1-left1">
+          <a href="https://www.google.com/maps/place/286+Cadman+Plaza+W,+Brooklyn,+NY+11201,+USA/data=!4m2!3m1!1s0x89c25a49b649b8c3:0x6342a2291cea2e?sa=X&ved=2ahUKEwiRsr_R_72AAxWuJxAIHZG4AvMQ8gF6BAgQEAA&ved=2ahUKEwiRsr_R_72AAxWuJxAIHZG4AvMQ8gF6BAgREAI" target="_blank">286 Cadman Plaza, New York, 
+            NY 11238, United States</a>
+        </p>
+        <p class="footer-address-block1-right1">
+          Mon - Fri
+          08:00 am - 07:00 pm
+        </p>
+      </div>
+      <div class="footer-address-block2">
+        <ul>
+          <li class="footer-link-twitter"><a href="https://twitter.com/" target="_blank"></a></li>
+          <li class="footer-link-instagram"><a href="https://www.instagram.com/" target="_blank"></a></li>
+          <li class="footer-link-facebook"><a href="https://www.facebook.com/" target="_blank"></a></li>
+        </ul>
+        <p class="footer-address-block2-right2">
+          Sat - Sun
+          10:00 am - 06:00 pm
+        </p>
+      </div>
+      <hr >
+      <ul class="footer-info">
+        <li>2023</li>
+        <li><a href="https://rs.school/js/" target="_blank">The Rolling Scopes School</a></li>
+        <li><a href="https://github.com/codingmemories" target="_blank">@codingmemories</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
