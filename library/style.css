@@ -300,195 +300,123 @@ input:checked + label {
   font-weight: bold;
 }
 
-.section-favorites-seasons-items {
-  max-width: 1400px;
-  background-color: #fff;
+.section-favorites-seasons-books {
+  margin: 40px 0px 20px 0px;
+  padding: 0px;
+  max-height: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: row;
+  /* max-width: 1400px; */
+  color: #000;
+  background-color: #fff;
   gap: 12%;
   padding: 2% 0% 0% 2%;
 }
 
-.section-favorites-seasons-item-1,
-.section-favorites-seasons-item-2,
-.section-favorites-seasons-item-3,
-.section-favorites-seasons-item-4 {
-  width: 500px;
+.section-favorites-seasons-books-container {
+  width: 590px;
+  height: 555px
+}
+
+.section-favorites-seasons-books-container-content {
+  width: 550px;
   height: 555px;
-  border: 1px solid #000;
+  border: 1px solid black;
+}
+
+.section-favorites-seasons-text {
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.section-favorites-seasons-text::after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  background-color: #BB945F;
+  margin-top: 40px;
+  margin-left: -20%;
+}
+
+h4 {
   display: flex;
   flex-direction: column;
-  padding: 2%;
-  margin-top: 35px;
+  gap: 5px;
 }
 
-.section-favorites-seasons-item-1-title,
-.section-favorites-seasons-item-2-title,
-.section-favorites-seasons-item-3-title,
-.section-favorites-seasons-item-4-title {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2%;
-  height: 10%;
-}
-
-.section-favorites-seasons-item-1-title::after {
-  content: '';
-  width: 50px;
-  height: 1px;
-  background-color: #BB945F;
-}
-
-.section-favorites-seasons-item-2-title::after {
-  content: '';
-  width: 50px;
-  height: 1px;
-  background-color: #BB945F;
-}
-
-.section-favorites-seasons-item-3-title::after {
-  content: '';
-  width: 50px;
-  height: 1px;
-  background-color: #BB945F;
-}
-
-.section-favorites-seasons-item-4-title::after {
-  content: '';
-  width: 50px;
-  height: 1px;
-  background-color: #BB945F;
-}
-
-.section-favorites-seasons-item-1-title-text,
-.section-favorites-seasons-item-2-title-text,
-.section-favorites-seasons-item-3-title-text,
-.section-favorites-seasons-item-4-title-text {
-  display: inline-flex;
-  justify-content: center;
-  color: #000;
-  font-weight: 400;
-}
-
-.section-favorites-seasons-item-1-book-title,
-.section-favorites-seasons-item-2-book-title,
-.section-favorites-seasons-item-3-book-title,
-.section-favorites-seasons-item-4-book-title {
-  width: max-content;
-  height: 80px;
-}
-
-.section-favorites-seasons-item-1-book-title-style,
-.section-favorites-seasons-item-2-book-title-style,
-.section-favorites-seasons-item-3-book-title-style,
-.section-favorites-seasons-item-4-book-title-style {
+.section-favorites-seasons-books-title {
   text-transform: uppercase;
+  margin-bottom: -20px;
+  margin-left: 20px;
 }
 
-.section-favorites-seasons-item-1-book-title-style-author,
-.section-favorites-seasons-item-2-book-title-style-author,
-.section-favorites-seasons-item-3-book-title-style-author,
-.section-favorites-seasons-item-4-book-title-style-author {
-  padding-top: 25px;
-}
-
-.section-favorites-seasons-item-1-book-title p,
-.section-favorites-seasons-item-2-book-title p,
-.section-favorites-seasons-item-3-book-title p,
-.section-favorites-seasons-item-4-book-title p {
-  color: #000;
-  font-weight: 700;
-  font-size: medium;
-  line-height: 45px;
-}
-
-.section-favorites-seasons-item-1-book-description,
-.section-favorites-seasons-item-2-book-description,
-.section-favorites-seasons-item-3-book-description,
-.section-favorites-seasons-item-4-book-description {
-  width: 355px;
-  height: 320px;
-  padding-top: inherit;
-}
-
-.section-favorites-seasons-item-1-book-description p,
-.section-favorites-seasons-item-2-book-description p,
-.section-favorites-seasons-item-3-book-description p,
-.section-favorites-seasons-item-4-book-description p {
-  color: #000;
-  font-weight: 400;
+.section-favorites-seasons-books-author {
   font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
   line-height: 40px;
-  width: 80%;
+  letter-spacing: 2px;
+  margin-left: 20px;
 }
 
-.section-favorites-seasons-item-1-book-button,
-.section-favorites-seasons-item-2-book-button,
-.section-favorites-seasons-item-3-book-button,
-.section-favorites-seasons-item-4-book-button {
+.section-favorites-seasons-books-description {
+  text-align: left;
+  text-transform: capitalize;
+  height: fit-content;
+  width: 355px;
+  max-width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.section-favorites-seasons-books-button {
+  position: relative;
+  left: 20px;
+  bottom: 45px;
+  background-color: transparent;
   width: 75px;
   height: 30px;
-  padding-top: 30px
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border: 1px solid rgb(12, 12, 14);
+  border-radius: 2px;
+  color: #0C0C0E;
 }
 
-.section-favorites-seasons-item-1-book-button-buy:hover {
+.section-favorites-seasons-books-button:hover {
   color: #0C0C0E;
   background-color: #BB945F;
   border: none;
 }
 
-.section-favorites-seasons-item-2-book-button-buy:hover {
-  color: #0C0C0E;
-  background-color: #BB945F;
-  border: none;
-}
-
-.section-favorites-seasons-item-3-book-button-buy:hover {
-  color: #0C0C0E;
-  background-color: #BB945F;
-  border: none;
-}
-
-.section-favorites-seasons-item-4-book-button-buy:hover {
-  color: #0C0C0E;
-  background-color: #BB945F;
-  border: none;
-}
-
-.section-favorites-seasons-item-1-book-button-buy,
-.section-favorites-seasons-item-2-book-button-buy,
-.section-favorites-seasons-item-3-book-button-buy {
-  color: #0C0C0E;
-  background-color: #fff;
-  width: inherit;
-  height: inherit;
-  border: 1px solid #0C0C0E;
-  cursor: pointer;
-}
-
-.section-favorites-seasons-item-4-book-button-buy {
-  color: #BB945F;
-  background-color: #fff;
-  width: inherit;
-  height: inherit;
-  border: 1px solid #BB945F;
-  cursor: pointer;
-}
-
-.section-favorites-seasons-item-1-book-image {
+.section-favorites-seasons-books-image1 {
   background-image: url('./assets/images/book1.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 200px;
-  height: 100%;
-  margin-top: -260px;
-  margin-left: 340px;
-  margin-bottom: 0px;
+  height: 300px;
+  position: relative;
+  float: right;
+  bottom: 300px;
 }
 
-.section-favorites-seasons-item-2-book-image {
+.section-favorites-seasons-books-image2 {
   background-image: url('./assets/images/book2.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -499,7 +427,7 @@ input:checked + label {
   margin-bottom: 0px;
 }
 
-.section-favorites-seasons-item-3-book-image {
+.section-favorites-seasons-books-image3 {
   background-image: url('./assets/images/book3.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -510,7 +438,7 @@ input:checked + label {
   margin-bottom: 0px;
 }
 
-.section-favorites-seasons-item-4-book-image {
+.section-favorites-seasons-books-image4 {
   background-image: url('./assets/images/book4.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
