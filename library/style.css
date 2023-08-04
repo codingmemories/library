@@ -463,29 +463,25 @@ h4 {
 
 .section-coffeeshop {
   height: 841px;
+  padding: 20px 20px 40px 20px;
   color: #0C0C0E;
   background-color: #fff;
 }
 
 .section-coffeeshop-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: auto;
+  font-family: 'Forum', cursive;
+  font-size: 40px;
   color: #0C0C0E;
-  width: 220px;
-  height: 110px;
-}
-
-.section-coffeeshope-title-text {
-  display: flex;
-  justify-content: center;
-  font-weight: 300;
-  color: #0C0C0E;
-  padding: 10%;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
   height: 40px;
-  line-height: 10%;
+  max-height: 100%;
+  padding: 0px;
+  margin: 0px
 }
 
 .section-coffeeshop-title::after {
@@ -493,28 +489,32 @@ h4 {
   width: 50px;
   height: 1px;
   background-color: #0C0C0E;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .section-coffeeshop-description {
-  height: 120px;
-  letter-spacing: 2px;
-  line-height: 40px;
-  padding: 20px;
-  height: 120px;
-}
-
-.section-coffeeshop-description-text {
-  color: #0C0C0E;
+  margin-bottom: 40px;
+  margin-top: 35px;
+  color: #000;
   text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  height: fit-content;
+  max-height: 100%;
 }
 
 .section-coffeeshop-menu {
-  height: 520px;
-  background-color: #fff;
+  max-height: 100%;
+  padding: 0px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 5%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .section-coffeeshop-menu-drinks,
@@ -545,41 +545,74 @@ h4 {
   text-align: right;
 }
 
-.section-coffeeshop-menu-drinks-list-items,
+.section-coffeeshop-menu-drinks-list-items {
+  padding: 2%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 35px;
+  margin-top: 5px;
+}
+
 .section-coffeeshop-menu-desserts-list-items {
   padding: 2%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  margin-top: 5px;
 }
 
 .section-coffeeshop-menu-drinks-list-items-flavor,
 .section-coffeeshop-menu-desserts-list-items-flavor {
   color: #0C0C0E;
   text-align: left;
+  display: contents;
+  width: 197px;
+  padding-top: 0px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
-.section-coffeeshop-menu-drinks-list-items-flavor::after {
-  content: '';
-  width: 50px;
+.section-coffeeshop-menu-drinks-list-items hr {
+  width: 100px;
   height: 1px;
+  display: flex;
   background-color: #BB945F;
-  display: block;
+  margin: auto;
+  margin-right: inherit;
 }
 
 .section-coffeeshop-menu-drinks-list-items-price,
 .section-coffeeshop-menu-desserts-list-items-price {
   color: #0C0C0E;
   text-align: right;
+  width: fit-content;
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 .section-coffeeshop-menu-desserts-list-items-flavor::after {
   content: '';
-  width: 50px;
+  width: 100px;
   height: 1px;
   background-color: #BB945F;
-  display: block;
+  margin-top: 2.5%;
 }
 
 .section-librarycard {
   height: 614px;
+  color: #0C0C0E;
   background-color: #fff;
 }
 
