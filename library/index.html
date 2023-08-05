@@ -21,12 +21,12 @@
       </div>
       <div class="header-navtop">
         <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#favorites">Favorites</a></li>
-            <li><a href="#coffeeshop">Coffee shop</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#librarycard">Library Card</a></li>
+          <ul class="navtop-list">
+            <li class="navtop-list-items"><a href="#about">About</a></li>
+            <li class="navtop-list-items"><a href="#favorites">Favorites</a></li>
+            <li class="navtop-list-items"><a href="#coffeeshop">Coffee shop</a></li>
+            <li class="navtop-list-items"><a href="#contacts">Contacts</a></li>
+            <li class="navtop-list-items"><a href="#librarycard">Library Card</a></li>
           </ul>
         </nav>
       </div>
@@ -82,7 +82,7 @@
       </div>
       <div class="section-favorites-seasons-books">
         <div class="section-favorites-seasons-books-container">
-          <div class="section-favorites-seasons-books-container-content">
+          <div class="section-favorites-seasons-books-container-content" id="first-book">
             <h3 class="section-favorites-seasons-text">Staff Picks</h3>
             <h4><span class="section-favorites-seasons-books-title">The Book Eaters</span>
               <br><span class="section-favorites-seasons-books-author">By Sunyi Dean</span></h4>
@@ -92,77 +92,82 @@
           <div class="section-favorites-seasons-books-image1"></div>
         </div>
 
-        <!-- <div class="section-favorites-seasons-books">
-          <div class="section-favorites-seasons-books-container">
-            <h3 class="section-favorites-seasons-item-2-title">Staff Picks</h3>
-            <h4><span class="section-favorites-seasons-item-2-book-title-style">Cackle</span>
-              <span class="section-favorites-seasons-item-2-book-title-style-author">By Rachel Harrison</span></h4>
-            <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
+        <div class="section-favorites-seasons-books-container">
+          <div class="section-favorites-seasons-books-container-content" id="second-book">
+            <h3 class="section-favorites-seasons-text">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-books-title">Cackle</span>
+              <br><span class="section-favorites-seasons-books-author">By Rachel Harrison</span></h4>
+            <p class="section-favorites-seasons-books-description">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</p>
           </div>
-          <button class="section-favorites-seasons-item-2-book-button-buy" type="button">Buy</button>
-          <div class="section-favorites-seasons-item-2-book-image"></div>
-        </div> -->
+          <button class="section-favorites-seasons-books-button" type="button">Buy</button>
+          <div class="section-favorites-seasons-books-image2"></div>
+        </div>
 
-        <!-- <div class="section-favorites-seasons-books>
-          <div class="section-favorites-seasons-books-container">
-            <h3 class="section-favorites-seasons-item-3-title">Staff Picks</h3>
-            <h4><span class="section-favorites-seasons-item-3-book-title-style">Dante: Poet of the Secular World</span>
-              <span class="section-favorites-seasons-item-3-book-title-style-author">By Erich Auerbach</span></h4>
-            <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
+        <div class="section-favorites-seasons-books-container">
+          <div class="section-favorites-seasons-books-container-content" id="third-book">
+            <h3 class="section-favorites-seasons-text">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-books-title">Dante: Poet of the Secular World</span>
+              <br><span class="section-favorites-seasons-books-author">By Erich Auerbach</span></h4>
+            <p class="section-favorites-seasons-books-description">Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</p>
           </div>
-          <button class="section-favorites-seasons-item-3-book-button-buy" type="button">Buy</button>
-          <div class="section-favorites-seasons-item-3-book-image"></div>
-        </div> -->
+          <button class="section-favorites-seasons-books-button" type="button">Buy</button>
+          <div class="section-favorites-seasons-books-image3"></div>
+        </div>
 
-        <!-- <div class="section-favorites-seasons-books">
-          <div class="section-favorites-seasons-books-container">
-            <h3 class="section-favorites-seasons-books-title">Staff Picks</h3>
-            <h4><span class="section-favorites-seasons-item-4-book-title-style">The Last Queen</span>
-              <span class="section-favorites-seasons-item-4-book-title-style-author">By Clive Irving</span></h4>
-            <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+        <div class="section-favorites-seasons-books-container">
+          <div class="section-favorites-seasons-books-container-content" id="fourth-book">
+            <h3 class="section-favorites-seasons-text">Staff Picks</h3>
+            <h4><span class="section-favorites-seasons-books-title">The Last Queen</span>
+              <br><span class="section-favorites-seasons-books-author">By Clive Irving</span></h4>
+            <p class="section-favorites-seasons-books-description">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</p>
           </div>
-          <button class="section-favorites-seasons-item-4-book-button-buy" type="button" disabled>Own</button>
-          <div class="section-favorites-seasons-item-4-book-image"></div>
-        </div> -->
+          <button class="section-favorites-seasons-books-button" type="button" id="own" disabled>Own</button>
+          <div class="section-favorites-seasons-books-image4"></div>
+        </div>
+
       </div>
      </section>
 
      <section class="section-coffeeshop" id="coffeeshop">
-      <div class="section-coffeeshop-title">
-        <h2 class="section-coffeeshope-title-text">Coffee Shop</h2>
-      </div>
-      <div class="section-coffeeshop-description">
-        <p class="section-coffeeshop-description-text">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
-          you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
-      </div>
+        <h2 class="section-coffeeshop-title">Coffee Shop</h2>
+        <p class="section-coffeeshop-description">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
+          you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.
+        </p>
       <div class="section-coffeeshop-menu">
         <div class="section-coffeeshop-menu-drinks">
           <p class="section-coffeeshop-menu-drinks-title">Coffee & Tea</p>
           <article class="section-coffeeshop-menu-drinks-list-items">
             <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Cold Brew Coffee</h4>
+            <hr>
             <p class="section-coffeeshop-menu-drinks-list-items-price">$3</p>
           </article>
           <article class="section-coffeeshop-menu-drinks-list-items">
             <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">French Press Pot</h4>
+            <hr>
             <p class="section-coffeeshop-menu-drinks-list-items-price">$5</p>
           </article>
           <article class="section-coffeeshop-menu-drinks-list-items">
             <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Espresso</h4>
+            <hr>
             <p class="section-coffeeshop-menu-drinks-list-items-price">$2</p>
           </article>
           <article class="section-coffeeshop-menu-drinks-list-items">
             <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Cappuccino</h4>
+            <hr>
             <p class="section-coffeeshop-menu-drinks-list-items-price">$4</p>
           </article>
           <article class="section-coffeeshop-menu-drinks-list-items">
             <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Hot Tea</h4>
+            <hr>
             <p class="section-coffeeshop-menu-drinks-list-items-price">$2</p>
           </article>
           <article class="section-coffeeshop-menu-drinks-list-items">
             <h4 class="section-coffeeshop-menu-drinks-list-items-flavor">Cold Tea</h4>
+            <hr>
             <p class="section-coffeeshop-menu-drinks-list-items-price">$2</p>
           </article>
         </div>
+
         <div class="section-coffeeshop-menu-deserts">
           <p class="section-coffeeshop-menu-desserts-title">Desserts & Cakes</p>
           <article class="section-coffeeshop-menu-desserts-list-items">
@@ -194,55 +199,76 @@
      </section>
 
      <section class="section-contacts" id="contacts">
-      <div class="section-contacts-block">
-        <h2 class="section-contacts-block-title">Our Contacts</h2>
-      </div>
-        <div class="section-contacts-block-list">
-          <ul>
-            <li>For all Library inquiries:</li>
-            <li>Please call (617) 730-2370</li>
-            <li>For TTY service, please call (617) 730-2370</li>
-            <li>Putterham Library: (617) 730-2385</li>
-            <li>Senior Staff</li>
-            <li>Library Director: Amanda Hirst</li>
-          </ul>
+        <h2 class="section-contacts-title">Our Contacts</h2>
+        <div class="section-contacts-container">
+          <div class="section-contacts-list">
+            <ul class="section-contacts-list-items">
+              <li class="section-contacts-list-item"><b>For all Library inquiries:</b></li><br>
+              <li class="section-contacts-list-item"><a href="tel:+16177302370">Please call (617) 730-2370</a></li>
+              <li class="section-contacts-list-item"><a href="tel:+16177302370">For TTY service, please call (617) 730-2370</a></li>
+              <li class="section-contacts-list-item"><a href="tel:+16177302385">Putterham Library: (617) 730-2385</a></li><br>
+              <li class="section-contacts-list-item"><b>Senior Staff</b></li>
+              <li class="section-contacts-list-item">Library Director: <a href="mailto:AmandaHirst@gmail.com"><b>Amanda Hirst</b></a></li>
+            </ul>
+          </div>
+          <div class="section-contacts-maps">
+            <img class="section-contacts-map" src="./assets/images/Rectangle4.jpg" alt="map address">
+          </div>
         </div>
-        <div class="section-contacts-maps"></div>
      </section>
 
-     <section id="librarycard">
-      <h2>LibraryCard</h2>
+     <section class="section-librarycard" id="librarycard">
+      <h2 class="section-librarycard-title">Digital Library Cards</h2>
+      <div class="section-librarycard-container">
+        <form class="section-librarycard-search">
+          <h5>Find your Library card</h5>
+          <div class="card-container">
+            <div class="input-card">
+              <p>Brooklyn Public Library</p>
+              <input type="text" placeholder="Reader's name" name="reader name" pattern="^[a-z0-9-]+$">
+              <input type="text" placeholder="Card number" name="card number" pattern="^[a-z0-9-]+$">
+            </div>
+            <input type="submit" name="check" value="Check the card">
+          </div>
+        </form>
+
+        <div class="order-card">
+          <p class="order">Get a reader card</p>
+          <p class="account">You will be able to see a reader card after logging into account or you can register a new account</p>
+          <div class="order-card-buttons">
+            <button class="sign-up">Sign Up</button>
+            <button class="log-in">Log In</button>
+          </div>
+        </div>
+      </div>
      </section>
 
     </main>
     <footer class="footer">
-      <div class="footer-address-block1">
-        <p class="footer-address-block1-left1">
-          <a href="https://www.google.com/maps/place/286+Cadman+Plaza+W,+Brooklyn,+NY+11201,+USA/data=!4m2!3m1!1s0x89c25a49b649b8c3:0x6342a2291cea2e?sa=X&ved=2ahUKEwiRsr_R_72AAxWuJxAIHZG4AvMQ8gF6BAgQEAA&ved=2ahUKEwiRsr_R_72AAxWuJxAIHZG4AvMQ8gF6BAgREAI" target="_blank">286 Cadman Plaza, New York, 
-            NY 11238, United States</a>
-        </p>
-        <p class="footer-address-block1-right1">
-          Mon - Fri
-          08:00 am - 07:00 pm
-        </p>
+      <div class="footer-container">
+        <div class="footer-address-container">
+          <div class="footer-address">
+            <p><a href="https://goo.gl/maps/NFRpwjxjaU9kG1C77" target="_blank">286 Cadman Plaza, New York,<br>NY 11238, United States</a></p>
+            <div class="footer-social-container">
+              <ul class="footer-social-media">
+                <li><a href="https://twitter.com/BKLYNlibrary"><img src="./assets/svg/u_twitter-alt.svg" alt="twitter" width="24" height="24"></a></li>
+                <li><a href="https://www.instagram.com/bklynlibrary/"><img src="./assets/svg/u_instagram.svg" alt="instagram" width="24" height="24"></a></li>
+                <li><a href="https://www.facebook.com/BrooklynPublicLibrary/"><img src="./assets/svg/u_facebook-f.svg" alt="facebook" width="24" height="24"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-address-time">
+            <p>Mon - Fri<br>08:00 am - 07:00 pm</p>
+            <p class="time">Sat - Sun<br>10:00 am - 06:00 pm</p>
+          </div>
+        </div>
+        <hr class="footer-hr">
+          <ul class="footer-info">
+            <li>2023</li>
+            <li><a href="https://rs.school/js-stage0/ " target="_blank">The Rolling Scopes School</a></li>
+            <li><a href="https://github.com/codingmemories" target="_blank">codingmemories</a></li>
+          </ul>
       </div>
-      <div class="footer-address-block2">
-        <ul>
-          <li class="footer-link-twitter"><a href="https://twitter.com/" target="_blank"></a></li>
-          <li class="footer-link-instagram"><a href="https://www.instagram.com/" target="_blank"></a></li>
-          <li class="footer-link-facebook"><a href="https://www.facebook.com/" target="_blank"></a></li>
-        </ul>
-        <p class="footer-address-block2-right2">
-          Sat - Sun
-          10:00 am - 06:00 pm
-        </p>
-      </div>
-      <hr >
-      <ul class="footer-info">
-        <li>2023</li>
-        <li><a href="https://rs.school/js/" target="_blank">The Rolling Scopes School</a></li>
-        <li><a href="https://github.com/codingmemories" target="_blank">@codingmemories</a></li>
-      </ul>
     </footer>
   </div>
 </body>
