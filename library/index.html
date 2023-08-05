@@ -218,39 +218,57 @@
      </section>
 
      <section class="section-librarycard" id="librarycard">
-      <h2 class="section-librarycard-title">LibraryCard</h2>
-      <div class="section-librarycard-container"></div>
+      <h2 class="section-librarycard-title">Digital Library Cards</h2>
+      <div class="section-librarycard-container">
+        <form class="section-librarycard-search">
+          <h5>Find your Library card</h5>
+          <div class="card-container">
+            <div class="input-card">
+              <p>Brooklyn Public Library</p>
+              <input type="text" placeholder="Reader's name" name="reader name" pattern="^[a-z0-9-]+$">
+              <input type="text" placeholder="Card number" name="card number" pattern="^[a-z0-9-]+$">
+            </div>
+            <input type="submit" name="check" value="Check the card">
+          </div>
+        </form>
+
+        <div class="order-card">
+          <p class="order">Get a reader card</p>
+          <p class="account">You will be able to see a reader card after logging into account or you can register a new account</p>
+          <div class="order-card-buttons">
+            <button class="sign-up">Sign Up</button>
+            <button class="log-in">Log In</button>
+          </div>
+        </div>
+      </div>
      </section>
 
     </main>
     <footer class="footer">
-      <div class="footer-address-block1">
-        <p class="footer-address-block1-left1">
-          <a href="https://www.google.com/maps/place/286+Cadman+Plaza+W,+Brooklyn,+NY+11201,+USA/data=!4m2!3m1!1s0x89c25a49b649b8c3:0x6342a2291cea2e?sa=X&ved=2ahUKEwiRsr_R_72AAxWuJxAIHZG4AvMQ8gF6BAgQEAA&ved=2ahUKEwiRsr_R_72AAxWuJxAIHZG4AvMQ8gF6BAgREAI" target="_blank">286 Cadman Plaza, New York, 
-            NY 11238, United States</a>
-        </p>
-        <p class="footer-address-block1-right1">
-          Mon - Fri
-          08:00 am - 07:00 pm
-        </p>
+      <div class="footer-container">
+        <div class="footer-address-container">
+          <div class="footer-address">
+            <p><a href="https://goo.gl/maps/NFRpwjxjaU9kG1C77" target="_blank">286 Cadman Plaza, New York,<br>NY 11238, United States</a></p>
+            <div class="footer-social-container">
+              <ul class="footer-social-media">
+                <li><a href="https://twitter.com/BKLYNlibrary"><img src="./assets/svg/u_twitter-alt.svg" alt="twitter" width="24" height="24"></a></li>
+                <li><a href="https://www.instagram.com/bklynlibrary/"><img src="./assets/svg/u_instagram.svg" alt="instagram" width="24" height="24"></a></li>
+                <li><a href="https://www.facebook.com/BrooklynPublicLibrary/"><img src="./assets/svg/u_facebook-f.svg" alt="facebook" width="24" height="24"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-address-time">
+            <p>Mon - Fri<br>08:00 am - 07:00 pm</p>
+            <p class="time">Sat - Sun<br>10:00 am - 06:00 pm</p>
+          </div>
+        </div>
+        <hr class="footer-hr">
+          <ul class="footer-info">
+            <li>2023</li>
+            <li><a href="https://rs.school/js-stage0/ " target="_blank">The Rolling Scopes School</a></li>
+            <li><a href="https://github.com/codingmemories" target="_blank">codingmemories</a></li>
+          </ul>
       </div>
-      <div class="footer-address-block2">
-        <ul>
-          <li class="footer-link-twitter"><a href="https://twitter.com/" target="_blank"></a></li>
-          <li class="footer-link-instagram"><a href="https://www.instagram.com/" target="_blank"></a></li>
-          <li class="footer-link-facebook"><a href="https://www.facebook.com/" target="_blank"></a></li>
-        </ul>
-        <p class="footer-address-block2-right2">
-          Sat - Sun
-          10:00 am - 06:00 pm
-        </p>
-      </div>
-      <hr >
-      <ul class="footer-info">
-        <li>2023</li>
-        <li><a href="https://rs.school/js/" target="_blank">The Rolling Scopes School</a></li>
-        <li><a href="https://github.com/codingmemories" target="_blank">@codingmemories</a></li>
-      </ul>
     </footer>
   </div>
 </body>
